@@ -1,0 +1,2998 @@
+
+> rest-express@1.0.0 dev:server
+> cross-env NODE_ENV=development npx tsx server/index.ts
+
+✅ Tabela users carregada com 1 registros
+✅ Tabela campaigns carregada com 0 registros
+✅ Tabela creatives carregada com 1 registros
+✅ Tabela copies carregada com 0 registros
+✅ Tabela landingPages carregada com 0 registros
+✅ Tabela whatsappMessages carregada com 0 registros
+✅ Tabela flows carregada com 0 registros
+✅ Tabela integrations carregada com 0 registros
+✅ Tabela chatSessions carregada com 0 registros
+✅ Tabela chatMessages carregada com 0 registros
+✅ Tabela metrics carregada com 0 registros
+🗃️  Usando banco de dados Excel local
+🚀 MKT2 Local - Configurações carregadas
+📂 Uploads: /workspace/project/mktv28/uploads
+🗃️  Database: /workspace/project/mktv28/database
+📝 Logs: /workspace/project/mktv28/logs
+[GeminiService] Inicializado com rotação de APIs
+[FunnelGeminiService] Inicializado com rotação de APIs
+[MCP_HANDLER_GEMINI] SDK do Gemini inicializado com sucesso.
+✅ [STARTUP] [SERVER] Iniciando MKT2 Local Server on port 12001 
+ℹ️  [SYSTEM] === MKT2 LOCAL - SERVIDOR BACKEND === 
+ℹ️  [SYSTEM] Versão: MKT2 Local v2.8 
+ℹ️  [SYSTEM] Ambiente: development 
+ℹ️  [SYSTEM] Porta: 12001 
+ℹ️  [SYSTEM] Client URL: https://work-1-objeenhsgrdfqxru.prod-runtime.all-hands.dev 
+ℹ️  [SYSTEM] Log único ativo - Histórico completo mantido 
+[SERVER] 🔧 Modo desenvolvimento: Frontend servido pelo Vite na porta 5000
+✅ [STARTUP] [SERVER] Servidor MKT2 Local iniciado on port 12001 
+ℹ️  [SERVER] 📊 Dashboard: https://work-1-objeenhsgrdfqxru.prod-runtime.all-hands.dev 
+ℹ️  [SERVER] 🔧 API: http://localhost:12001 
+ℹ️  [SERVER] 📝 Logs: logs/app.log 
+ℹ️  [SERVER] 🗃️  Database: Excel (local) 
+========================================
+    🚀 MKT2 LOCAL SERVER ONLINE!
+========================================
+📊 Dashboard: https://work-1-objeenhsgrdfqxru.prod-runtime.all-hands.dev
+🔧 API: http://localhost:12001
+📝 Logs: logs/app.log
+🗃️  Database: Excel (local)
+========================================
+▶️ Iniciando tarefas agendadas...
+ℹ️  [CRON] Serviço de Cron inicializado 
+ℹ️  [HEALTH] Health check solicitado 
+ℹ️  [HTTP] GET /health - 200 (4ms) {
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  responseTime: 4,
+  userAgent: 'curl/7.88.1'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:06:00 AM
+❌ [HTTP] GET / - 404 (2ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 2,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:07:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:08:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:09:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:10:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+ℹ️  [HEALTH] Health check solicitado 
+ℹ️  [HTTP] GET /health - 200 (0ms) {
+  method: 'GET',
+  url: '/health',
+  statusCode: 200,
+  responseTime: 0,
+  userAgent: 'curl/7.88.1'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:11:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+ℹ️  [HTTP] GET /api/dashboard?timeRange=30d - 200 (6ms) {
+  method: 'GET',
+  url: '/api/dashboard?timeRange=30d',
+  statusCode: 200,
+  responseTime: 6,
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/136.0.7103.25 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:12:00 AM
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:13:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:14:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:15:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:16:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:17:00 AM
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:18:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:19:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:20:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:21:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:22:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:23:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:24:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:25:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:26:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:27:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:28:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:29:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:30:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:31:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:32:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:33:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:34:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:35:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:36:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:37:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:38:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:39:00 AM
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:40:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:41:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:42:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+⏰ Executando tarefa agendada a cada minuto: 10/1/2025, 3:43:00 AM
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (0ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 0,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}
+❌ [HTTP] GET / - 404 (1ms) {
+  method: 'GET',
+  url: '/',
+  statusCode: 404,
+  responseTime: 1,
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+}

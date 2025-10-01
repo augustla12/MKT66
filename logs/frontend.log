@@ -1,0 +1,10 @@
+
+> rest-express@1.0.0 dev:client
+> npx vite
+
+
+  VITE v7.1.7  ready in 163 ms
+
+  ➜  Local:   http://localhost:12000/
+  ➜  Network: http://10.2.11.13:12000/
+  ➜  press h + enter to show help

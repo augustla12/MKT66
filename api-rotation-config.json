@@ -1,0 +1,100 @@
+{
+  "GOOGLE_API_KEY": {
+    "keys": [
+      {
+        "key": "test-google-key-1",
+        "isActive": true,
+        "lastUsed": "2025-09-30T18:59:41.551Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Tue Sep 30 2025"
+      },
+      {
+        "key": "AIzaSyAgqrTt537CZJJ41K1HbtFLxaZGrFj0ioE",
+        "isActive": true,
+        "lastUsed": "2025-10-01T01:22:41.883Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Tue Sep 30 2025"
+      }
+    ],
+    "currentIndex": 0,
+    "maxErrorsBeforeRotation": 3,
+    "dailyLimit": 1000
+  },
+  "GEMINI_API_KEY": {
+    "keys": [
+      {
+        "key": "test-key-1",
+        "isActive": true,
+        "lastUsed": "2025-09-30T23:39:50.878Z",
+        "errorCount": 0,
+        "dailyUsage": 4,
+        "lastResetDate": "Tue Sep 30 2025"
+      },
+      {
+        "key": "test-key-2",
+        "isActive": true,
+        "lastUsed": "2025-09-30T18:59:41.551Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Tue Sep 30 2025"
+      },
+      {
+        "key": "AIzaSyAGjTaQgRjdtkcjmoSjZZnujNAeA8ixP8A",
+        "isActive": true,
+        "lastUsed": "2025-10-01T01:22:41.883Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Tue Sep 30 2025"
+      }
+    ],
+    "currentIndex": 0,
+    "maxErrorsBeforeRotation": 3,
+    "dailyLimit": 1000
+  },
+  "OPENROUTER_API_KEY": {
+    "keys": [
+      {
+        "key": "test-openrouter-key-1",
+        "isActive": true,
+        "lastUsed": "2025-09-30T18:59:41.551Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Tue Sep 30 2025"
+      },
+      {
+        "key": "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",
+        "isActive": true,
+        "lastUsed": "2025-10-01T01:22:41.883Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Tue Sep 30 2025"
+      }
+    ],
+    "currentIndex": 0,
+    "maxErrorsBeforeRotation": 3,
+    "dailyLimit": 1000
+  },
+  "FACEBOOK_CLIENT_SECRET": {
+    "keys": [],
+    "currentIndex": 0,
+    "maxErrorsBeforeRotation": 3,
+    "dailyLimit": 1000
+  },
+  "GOOGLE_CLIENT_SECRET": {
+    "keys": [
+      {
+        "key": "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",
+        "isActive": true,
+        "lastUsed": "2025-10-01T03:02:02.875Z",
+        "errorCount": 0,
+        "dailyUsage": 0,
+        "lastResetDate": "Wed Oct 01 2025"
+      }
+    ],
+    "currentIndex": 0,
+    "maxErrorsBeforeRotation": 3,
+    "dailyLimit": 1000
+  }
+}
